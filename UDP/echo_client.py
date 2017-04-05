@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Echo socket client UDP"""
 
 import socket
 import sys
@@ -23,4 +24,3 @@ try:
 finally:
     print >>sys.stderr, 'closing socket'
     sock.close()
-
